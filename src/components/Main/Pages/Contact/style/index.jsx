@@ -63,12 +63,9 @@ export const IconsContact = styled.section`
   gap: 2vw;
   :hover {
     color: #3b2bb6;
-    font-size: 4ch;
+    font-size: 2ch;
     transition: 0.5s;
     cursor: pointer;
-    border: solid 6px #fff;
-    border-radius: 20%;
-    background-color: #bbbbbb;
   }
 `;
 export const ObjectBaseboard = styled.div`

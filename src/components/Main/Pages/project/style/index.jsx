@@ -19,18 +19,12 @@ export const BlocoTitle = styled.div`
   align-items: flex-end;
   justify-content: space-around;
   flex-wrap: wrap;
-  color: #00000016;
+  color: #fff;
   background-color: #000;
   padding-left: 6px;
-  width: 2vw;
+  width: 15vw;
   height: 6vh;
   border-radius: 10px 10px 0 0;
-  &:hover {
-    color: #fff;
-    width: 15vw;
-    transform: 3s;
-    justify-content: space-between;
-  }
 `;
 export const PorjectTitleV = styled.div`
   width: 15vw;
