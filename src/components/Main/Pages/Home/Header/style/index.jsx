@@ -9,6 +9,11 @@ export const Head = styled.header`
   background-color: #0003;
   display: flex;
   justify-content: flex-start;
+  @media screen and (max-width: 749px) {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const Figure = styled.figure`
@@ -23,8 +28,11 @@ export const Figure = styled.figure`
   background-repeat: no-repeat;
   background-position: center;
   margin: 0px;
-  width: 15%;
+  width: 100vw;
   height: 100px;
+  @media screen and (min-width: 750px) {
+    width: 20vw;
+  }
 `;
 export const LogoB = styled.b`
   font-family: "Khand", sans-serif;
@@ -34,6 +42,9 @@ export const LogoB = styled.b`
   }
   &.BaseboardLogo {
     font-size: 11px;
+  }
+  @media screen and (max-width: 750px) {
+    font-size: auto;
   }
 `;
 export const Line = styled.hr`

@@ -8,11 +8,14 @@ export const MainPorject = styled.div`
   align-items: stretch;
   border-radius: 10px 0 0 0;
   width: 100vw;
-  height: 98vh;
+  height: 78vh;
+  @media screen and (min-width: 750px) {
+    height: 98vh;
+  }
 `;
-export const BlocoTitle = styled.div`
+export const BlocoTitle = styled.button`
   font-family: "League Gothic", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1rem;
   display: flex;
   flex-direction: row;
   align-content: space-around;
@@ -21,10 +24,14 @@ export const BlocoTitle = styled.div`
   flex-wrap: wrap;
   color: #fff;
   background-color: #000;
+  border: none;
   padding-left: 6px;
   width: 15vw;
   height: 6vh;
   border-radius: 10px 10px 0 0;
+  @media screen and (min-width: 750px) {
+    font-size: 1.8rem;
+  }
 `;
 export const PorjectTitleV = styled.div`
   width: 15vw;
@@ -35,7 +42,10 @@ export const PorjectTitleV = styled.div`
   background-color: #383838;
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  display: none;
+  @media screen and (min-width: 750px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 `;

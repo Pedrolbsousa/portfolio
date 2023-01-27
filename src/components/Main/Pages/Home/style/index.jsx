@@ -27,8 +27,11 @@ export const Conteiner = styled.div`
   display: flex;
   flex-direction: column;
   width: 80vw;
-  height: 92vh;
+  height: 72vh;
   background-color: #000000e0;
+  @media screen and (min-width: 750px) {
+    height: 92vh;
+  }
 `;
 export const Ketalow = styled.p`
   font-size: 1rem;

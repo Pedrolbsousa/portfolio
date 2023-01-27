@@ -10,4 +10,10 @@ export const ButtonCard = styled.button`
   border-radius: 5px 0 0 0;
   border: solid #fff 2px;
   cursor: pointer;
+  :hover {
+    color: #500cf0d8;
+    background-color: #000000a7;
+    transition: 0.5s;
+    border-radius: 5px 0 0 0;
+  }
 `;

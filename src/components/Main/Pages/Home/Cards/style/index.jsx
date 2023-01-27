@@ -7,7 +7,7 @@ export const UlPorject = styled.ul`
   justify-content: flex-end;
   flex-wrap: wrap;
   list-style: none;
-  height: 70vh;
+  height: 50vh;
   margin: 0;
   padding: 0;
   transition: 0.3s;
@@ -56,6 +56,10 @@ export const UlPorject = styled.ul`
       background-image: url(https://i.postimg.cc/336sZSbs/primeiro-kenziehub-log.png);
       background-size: cover;
     }
+    @media screen and (min-width: 750px) {
+      height: 70vh;
+      width: 15vw;
+    }
   }
   .Bedroom {
     background-color: #333;
@@ -78,8 +82,12 @@ export const LPorject = styled.li`
   align-items: center;
   border: 0px solid;
   border-radius: 10px 0 0 0;
-  width: 15vw;
-  height: 70vh;
+  width: 20vw;
+  height: 50vh;
+  @media screen and (min-width: 750px) {
+    height: 70vh;
+    width: 15vw;
+  }
 `;
 export const TitleCard = styled.p`
   font-family: "League Gothic", sans-serif;
@@ -92,13 +100,11 @@ export const TitleCard = styled.p`
   justify-content: space-around;
   position: absolute;
   border-radius: 10px 0 0 0;
-  width: 15vw;
-  height: 70vh;
+  width: 20vw;
+  height: 50vh;
   background-color: #00000068;
-  :hover {
-    color: #500cf0d8;
-    background-color: #000000a7;
-    transition: 0.5s;
-    border-radius: 5px 0 0 0;
+  @media screen and (min-width: 750px) {
+    height: 70vh;
+    width: 15vw;
   }
 `;

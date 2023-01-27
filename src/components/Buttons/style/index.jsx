@@ -4,7 +4,9 @@ export const List = styled.ul`
   color: #fff;
   width: 480px;
   height: 100px;
-  display: flex;
+  display: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
   margin-top: 0px;
   padding-left: 0px;
   :hover {
@@ -15,6 +17,12 @@ export const List = styled.ul`
     text-shadow: 0 0 10px #6828ffcc, 0 0 3px #6828ff;
     font-weight: bold;
   }
+  @media screen and (min-width: 750px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
 `;
 export const Card = styled.li`
   list-style: none;
@@ -22,12 +30,16 @@ export const Card = styled.li`
   border-color: #ffffff26;
   border-width: 0px 1px;
   font-family: "League Gothic", sans-serif;
-  font-size: 1.3rem;
+  font-size: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
-  width: 120px;
+  width: 192px;
   cursor: pointer;
   transition: 0.5s;
+  @media screen and (min-width: 750px) {
+    font-size: 1.3rem;
+    width: 120px;
+  }
 `;

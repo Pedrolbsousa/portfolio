@@ -31,10 +31,15 @@ export const TextContact = styled.h5`
   display: flex;
   align-items: center;
   flex-direction: row;
-  font-size: 14px;
+  font-size: 0.8rem;
+  width: 30vw;
   font-weight: 400;
   margin: 0px;
   color: #000;
+  @media screen and (min-width: 750px) {
+    font-size: 1rem;
+    width: auto;
+  }
 `;
 export const BaseboardContact = styled.div`
   display: flex;
@@ -84,9 +89,13 @@ export const Baseboard = styled.div`
   position: relative;
 `;
 export const FigureBaseboard = styled.figure`
-  width: 10vw;
+  width: 22vw;
   height: 19vh;
   border-radius: 50%;
   background-size: cover;
   background-image: url(https://media.licdn.com/dms/image/C4D03AQHqtreTMuNMvA/profile-displayphoto-shrink_800_800/0/1660311963670?e=1680134400&v=beta&t=zGsAViKBs36PqE1pRkTKqioPT6izsCB_YzgFXjlEM_U);
+  @media screen and (min-width: 750px) {
+    width: 10vw;
+    height: 19vh;
+  }
 `;
