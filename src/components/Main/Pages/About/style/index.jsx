@@ -11,14 +11,19 @@ export const MainAbout = styled.div`
 `;
 export const ConteinerAbout = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-between;
   align-content: flex-end;
   flex-wrap: wrap;
   width: 80vw;
   height: 102vh;
   background-color: #000000e0;
+  @media screen and (min-width: 750px) {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
 `;
 export const TxtAbout = styled.p`
   font-family: "Khand", sans-serif;
@@ -33,7 +38,13 @@ export const TxtAbout = styled.p`
     height: 10vh;
     color: #000;
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
     font-weight: bold;
+  }
+  @media screen and (min-width: 750px) {
+    display: flex;
   }
 `;
 export const CntTitleAbout = styled.section`
@@ -56,9 +67,13 @@ export const PhotoAbout = styled.figure`
   width: 33vw;
   height: 30.7vh;
   margin-top: 190px;
-  position: absolute;
-  display: flex;
+  position: relative;
+  display: none;
   left: 0px;
+  @media screen and (min-width: 750px) {
+    display: flex;
+    position: absolute;
+  }
 `;
 export const ReactPlayer = styled.video`
   background-color: azure;
