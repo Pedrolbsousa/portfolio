@@ -8,7 +8,7 @@ export const MainPorject = styled.div`
   align-items: stretch;
   border-radius: 10px 0 0 0;
   width: 100vw;
-  height: 78vh;
+  height: 98vh;
   @media screen and (min-width: 750px) {
     height: 98vh;
   }

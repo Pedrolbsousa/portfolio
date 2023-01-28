@@ -27,7 +27,7 @@ export const Conteiner = styled.div`
   display: flex;
   flex-direction: column;
   width: 80vw;
-  height: 72vh;
+  height: 92vh;
   background-color: #000000e0;
   @media screen and (min-width: 750px) {
     height: 92vh;
@@ -41,10 +41,15 @@ export const Ketalow = styled.p`
 export const Paragraph = styled.small`
   display: flex;
   font-family: "Khand", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #fff;
   width: 73vw;
+  height: 20vh;
   padding-left: 3vw;
+  @media screen and (min-width: 750px) {
+    font-size: 1.2rem;
+    height: 92vh;
+  }
 `;
 export const Positiotext = styled.section`
   display: flex;

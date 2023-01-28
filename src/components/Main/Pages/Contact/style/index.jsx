@@ -4,7 +4,7 @@ export const Contacts = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  height: 50vh;
+  height: 65vh;
   width: 100vw;
 `;
 export const Conteiner = styled.div`
@@ -75,9 +75,13 @@ export const IconsContact = styled.section`
 `;
 export const ObjectBaseboard = styled.div`
   display: flex;
+  align-items: center;
   justify-content: space-around;
   height: 29vh;
-  width: 88vw;
+  width: 100vw;
+  @media screen and (min-width: 750px) {
+    align-items: normal;
+  }
 `;
 export const Baseboard = styled.div`
   display: flex;
@@ -89,7 +93,7 @@ export const Baseboard = styled.div`
   position: relative;
 `;
 export const FigureBaseboard = styled.figure`
-  width: 22vw;
+  width: 34vw;
   height: 19vh;
   border-radius: 50%;
   background-size: cover;

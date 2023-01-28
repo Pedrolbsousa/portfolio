@@ -7,7 +7,7 @@ export const MainAbout = styled.div`
   flex-wrap: wrap;
   align-items: center;
   width: 100vw;
-  height: 88vh;
+  height: 100vh;
 `;
 export const ConteinerAbout = styled.div`
   display: flex;
@@ -17,7 +17,7 @@ export const ConteinerAbout = styled.div`
   align-content: flex-end;
   flex-wrap: wrap;
   width: 80vw;
-  height: 102vh;
+  height: 120vh;
   background-color: #000000e0;
   @media screen and (min-width: 750px) {
     display: flex;
@@ -27,9 +27,9 @@ export const ConteinerAbout = styled.div`
 `;
 export const TxtAbout = styled.p`
   font-family: "Khand", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #fff;
-  width: 43vw;
+  width: 73vw;
   height: 57vh;
   padding-right: 5vw;
   padding-left: 3vw;
@@ -45,6 +45,8 @@ export const TxtAbout = styled.p`
   }
   @media screen and (min-width: 750px) {
     display: flex;
+    font-size: 1.2rem;
+    width: 43vw;
   }
 `;
 export const CntTitleAbout = styled.section`

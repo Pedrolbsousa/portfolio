@@ -51,7 +51,15 @@ export const Line = styled.hr`
   width: 200px;
   margin: 0px;
   #ContactLine {
-    color: #fff;
+    color: #ffffff;
+  }
+  #BaseboardLine {
+    width: 70px;
+  }
+  @media screen and (max-width: 750px) {
+    #BaseboardLine {
+      width: 200px;
+    }
   }
 `;
 export const LogoP = styled.p`
