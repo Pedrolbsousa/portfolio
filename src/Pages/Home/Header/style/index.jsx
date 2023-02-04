@@ -43,7 +43,7 @@ export const LogoB = styled.b`
   &.BaseboardLogo {
     font-size: 11px;
   }
-  @media screen and (max-width: 750px) {
+  @media screen and (min-width: 750px) {
     font-size: auto;
   }
 `;
@@ -54,9 +54,9 @@ export const Line = styled.hr`
     color: #ffffff;
   }
   #BaseboardLine {
-    width: 70px;
+    width: 7 0px;
   }
-  @media screen and (max-width: 750px) {
+  @media screen and (min-width: 750px) {
     #BaseboardLine {
       width: 200px;
     }

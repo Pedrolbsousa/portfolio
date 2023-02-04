@@ -1,18 +1,16 @@
 import React from "react";
-import { PorjectTitleV, BlocoTitle, MainPorject } from "../project/style";
-import Saldacoes from "../../../Main/Description";
-import Cards from "./Cards";
-import About from "../About";
-import { Conteiner, Ketalow, MainPage, Section } from "./style";
-import Header from "./Header";
-import { Paragraph, Positiotext } from "./style";
-import Contact from "../Contact";
+import {
+  BlocoTitle,
+  Conteiner,
+  MainPorject,
+  PorjectTitleV,
+} from "./style/index";
+import { Ketalow, Paragraph, Positiotext, Section } from "../Home/style";
+import Cards from "../Home/Cards";
 
-function Main() {
+function Project() {
   return (
-    <MainPage>
-      <Header />
-      <Saldacoes />
+    <MainPorject id="Projetos">
       <MainPorject>
         <BlocoTitle>
           Projetos <Ketalow> &gt; </Ketalow>
@@ -35,9 +33,7 @@ function Main() {
           </Positiotext>
         </Conteiner>
       </MainPorject>
-      <About />
-      <Contact />
-    </MainPage>
+    </MainPorject>
   );
 }
-export default Main;
+export default Project;

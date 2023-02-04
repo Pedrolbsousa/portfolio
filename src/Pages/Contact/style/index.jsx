@@ -32,11 +32,13 @@ export const TextContact = styled.h5`
   align-items: center;
   flex-direction: row;
   font-size: 0.8rem;
-  width: 30vw;
+  width: 50vw;
   font-weight: 400;
   margin: 0px;
   color: #000;
+  padding-left: 10px;
   @media screen and (min-width: 750px) {
+    width: 30vw;
     font-size: 1rem;
     width: auto;
   }
@@ -59,8 +61,9 @@ export const Logo = styled.p`
 `;
 export const IconsContact = styled.section`
   display: flex;
-  align-items: flex-end;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   width: 68.8vw;
   height: 4vh;
   color: #000;
@@ -88,9 +91,12 @@ export const Baseboard = styled.div`
   align-items: center;
   justify-content: space-around;
   background-color: #72727239;
-  height: 5vh;
-  width: 99vw;
+  height: 10vh;
+  width: 100vw;
   position: relative;
+  @media screen and (min-width: 750px) {
+    height: 5vh;
+  }
 `;
 export const FigureBaseboard = styled.figure`
   width: 34vw;
@@ -102,4 +108,17 @@ export const FigureBaseboard = styled.figure`
     width: 10vw;
     height: 19vh;
   }
+`;
+export const linkBaseboard = styled.a`
+  color: #000;
+  display: flex;
+  @media screen and (min-width: 750px) {
+    display: flex;
+    width: 10vw;
+    height: 19vh;
+  }
+`;
+export const BaseboardLine = styled.hr`
+  width: 70px;
+  margin: 0px;
 `;

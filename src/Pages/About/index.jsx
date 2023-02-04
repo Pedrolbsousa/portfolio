@@ -10,7 +10,7 @@ import ReactPlayer from "react-player";
 
 function About() {
   return (
-    <MainAbout>
+    <MainAbout id="SobreMin">
       <ConteinerAbout>
         <CntTitleAbout>
           <TitleAbout>Sobre mim</TitleAbout>

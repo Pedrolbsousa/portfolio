@@ -1,4 +1,4 @@
-import Menu from "../../../../Buttons";
+import Menu from "../../../components/Buttons";
 import {
   Bloco,
   Figure,

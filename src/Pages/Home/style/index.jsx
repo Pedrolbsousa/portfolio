@@ -48,7 +48,7 @@ export const Paragraph = styled.small`
   padding-left: 3vw;
   @media screen and (min-width: 750px) {
     font-size: 1.2rem;
-    height: 92vh;
+    height: 18vh;
   }
 `;
 export const Positiotext = styled.section`

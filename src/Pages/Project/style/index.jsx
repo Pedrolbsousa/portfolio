@@ -13,6 +13,16 @@ export const MainPorject = styled.div`
     height: 98vh;
   }
 `;
+export const Conteiner = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: 92vh;
+  background-color: #000000e0;
+  @media screen and (min-width: 750px) {
+    height: 92vh;
+  }
+`;
 export const BlocoTitle = styled.button`
   font-family: "League Gothic", sans-serif;
   font-size: 1rem;

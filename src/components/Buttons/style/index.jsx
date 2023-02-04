@@ -43,3 +43,15 @@ export const Card = styled.li`
     width: 120px;
   }
 `;
+export const Links = styled.a`
+  border-style: solid;
+  border-color: #ffffff26;
+  border-width: 0px 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (min-width: 750px) {
+    font-size: 1.3rem;
+    width: 120px;
+  }
+`;

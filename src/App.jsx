@@ -1,14 +1,22 @@
-import Menu from "./components/Buttons/index";
-import Header from "./components/Main/Pages/Home/Header";
-import Main from "./components/Main/Pages/Home";
+import { MainPage } from "./Pages/Home/style";
+import Header from "./Pages/Home/Header";
+import Saldacoes from "./components/Main/Description";
+import Project from "./Pages/Project";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import { Head } from "./Pages/Home/Header/style";
 
 function App() {
   return (
-    <Main>
+    <MainPage>
       <Header>
-        <Menu />
+        <Head />
       </Header>
-    </Main>
+      <Saldacoes />
+      <Project id="project" />
+      <About id="about" />
+      <Contact id="contact" />
+    </MainPage>
   );
 }
 

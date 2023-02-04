@@ -11,6 +11,7 @@ import {
   Baseboard,
   FigureBaseboard,
   ObjectBaseboard,
+  BaseboardLine,
 } from "./style";
 import {
   AiFillLinkedin,
@@ -19,10 +20,11 @@ import {
   AiOutlineWhatsApp,
 } from "react-icons/ai";
 import { TxtAbout } from "../About/style";
+import { userData } from "../../ultils/userData";
 
 function Contact() {
   return (
-    <Contacts>
+    <Contacts id="Contato">
       <Conteiner>
         <TitleContact>Contato</TitleContact>
         <LogoContact>
@@ -44,14 +46,35 @@ function Contact() {
         <Baseboard>
           <TextContact>Copyrigth Pedro Lima 2023</TextContact>
           <IconsContact>
-            <AiFillLinkedin />
-            <AiOutlineGithub />
-            <AiOutlineMail />
-            <AiOutlineWhatsApp />
+            <linkBaseboard
+              target="blank"
+              href={`https://www.linkedin.com/in/${userData.linkedinUser}`}
+              className="IconesContact"
+            >
+              <AiFillLinkedin />
+            </linkBaseboard>
+            <linkBaseboard
+              target="blank"
+              href={`https://github.com/${userData.githubUser}`}
+            >
+              <AiOutlineGithub />
+            </linkBaseboard>
+            <linkBaseboard
+              target="blank"
+              href={`mailto${userData.email}@gmail.com`}
+            >
+              <AiOutlineMail />
+            </linkBaseboard>
+            <linkBaseboard
+              target="blank"
+              href={`https://api.whatsapp.com/send?phone=${userData.whatsappNumber}&text=Ol%C3%A1,%20Sr.%20Pedro%20Lima,%20achei%20muito%20interessante%20seu%20portfolio,%20gostaria%20de%20saber%20mais.`}
+            >
+              <AiOutlineWhatsApp />
+            </linkBaseboard>
           </IconsContact>
           <LogoContact>
             <LogoB className="BaseboardLogo"> &lsaquo;PEDRO LIMA&rsaquo;</LogoB>
-            <Line className="BaseboardLine" />
+            <BaseboardLine />
             <Logo className="Baseboardp">
               &lsaquo; /Desenvolvedor Front-end &rsaquo;
             </Logo>

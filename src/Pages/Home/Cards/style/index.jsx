@@ -21,14 +21,7 @@ export const UlPorject = styled.ul`
     background-repeat: no-repeat;
     position: relative;
     border-radius: 10px 0 0 0;
-    :hover {
-      width: 20vw;
-      transition: 1s linear;
-      background-image: url(https://i.postimg.cc/7P4D1fLX/primeiro-projeto.png);
-      background-size: cover;
-    }
   }
-
   .Second {
     background-color: #333;
     background-image: url(https://i.postimg.cc/7qYHRW9b/primeiro-news.png);
@@ -36,12 +29,6 @@ export const UlPorject = styled.ul`
     background-repeat: no-repeat;
     position: relative;
     transition: 0.3s;
-    :hover {
-      width: 20vw;
-      transition: 1s linear;
-      background-image: url(https://i.postimg.cc/7qYHRW9b/primeiro-news.png);
-      background-size: cover;
-    }
   }
   .Third {
     background-color: #5163d3;
@@ -50,12 +37,6 @@ export const UlPorject = styled.ul`
     background-repeat: no-repeat;
     position: relative;
     transition: 0.3s;
-    :hover {
-      width: 20vw;
-      transition: 1s linear;
-      background-image: url(https://i.postimg.cc/336sZSbs/primeiro-kenziehub-log.png);
-      background-size: cover;
-    }
     @media screen and (min-width: 750px) {
       height: 70vh;
       width: 15vw;
@@ -67,12 +48,6 @@ export const UlPorject = styled.ul`
     background-size: cover;
     background-repeat: no-repeat;
     position: 0.3s;
-    :hover {
-      width: 20vw;
-      transition: 1s linear;
-      background-image: url(https://i.postimg.cc/CwZtdCLm/primeiro-kenzie-Burger.png);
-      background-size: cover;
-    }
   }
 `;
 export const LPorject = styled.li`
