@@ -23,16 +23,6 @@ export const TitleCard = styled.p`
 export const Section = styled.section`
   display: flex;
 `;
-export const Conteiner = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 80vw;
-  height: 92vh;
-  background-color: #000000e0;
-  @media screen and (min-width: 750px) {
-    height: 92vh;
-  }
-`;
 export const Ketalow = styled.p`
   font-size: 1rem;
   writing-mode: vertical-rl;

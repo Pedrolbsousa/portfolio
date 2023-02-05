@@ -14,7 +14,6 @@ export const ButtonCard = styled.button`
     color: #500cf0d8;
     background-color: #000000a7;
     transition: 0.5s;
-    border-radius: 5px 0 0 0;
   }
   @media screen and (min-width: 750px) {
     width: 110px;

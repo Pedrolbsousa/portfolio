@@ -4,9 +4,10 @@ export const List = styled.ul`
   color: #fff;
   width: 480px;
   height: 100px;
-  display: none;
+  display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  align-items: center;
   margin-top: 0px;
   padding-left: 0px;
   :hover {
@@ -16,6 +17,9 @@ export const List = styled.ul`
     box-shadow: 0px 0px 35px #6828ff, 0px 0px 15px #6928ff76 inset;
     text-shadow: 0 0 10px #6828ffcc, 0 0 3px #6828ff;
     font-weight: bold;
+  }
+  .True {
+    display: none;
   }
   @media screen and (min-width: 750px) {
     display: flex;
@@ -53,5 +57,21 @@ export const Links = styled.a`
   @media screen and (min-width: 750px) {
     font-size: 1.3rem;
     width: 120px;
+  }
+`;
+export const MobileMenuIcon = styled.button`
+  display: block;
+  position: absolute;
+  left: 311px;
+  top: 71px;
+  font-size: 27px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #00000000;
+  border: 0;
+  width: 0px;
+  height: 0px;
+  @media screen and (min-width: 750px) {
+    display: none;
   }
 `;
