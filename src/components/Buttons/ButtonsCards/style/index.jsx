@@ -8,9 +8,9 @@ export const ButtonCard = styled.button`
   height: 40px;
   width: 60px;
   border-radius: 5px 0 0 0;
-  border: solid #fff 2px;
+  border: solid #ffffffc8 2px;
   cursor: pointer;
-  :hover {
+  &:hover {
     color: #500cf0d8;
     background-color: #000000a7;
     transition: 0.5s;

@@ -5,7 +5,7 @@ export const Head = styled.header`
   border-color: #ffffff3b;
   border-width: 1px;
   height: 100px;
-  width: 100vw;
+  width: 99.881vw;
   background-color: #0003;
   display: flex;
   justify-content: flex-start;

@@ -17,12 +17,13 @@ export const ConteinerAbout = styled.div`
   align-content: flex-end;
   flex-wrap: wrap;
   width: 80vw;
-  height: 120vh;
+  height: 126vh;
   background-color: #000000e0;
   @media screen and (min-width: 750px) {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    height: 120vh;
   }
 `;
 export const TxtAbout = styled.p`

@@ -23,11 +23,6 @@ export const TitleCard = styled.p`
 export const Section = styled.section`
   display: flex;
 `;
-export const Ketalow = styled.p`
-  font-size: 1rem;
-  writing-mode: vertical-rl;
-  color: #fff;
-`;
 export const Paragraph = styled.small`
   display: flex;
   font-family: "Khand", sans-serif;

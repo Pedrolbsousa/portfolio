@@ -5,16 +5,14 @@ import {
   MainPorject,
   PorjectTitleV,
 } from "./style/index";
-import { Ketalow, Paragraph, Positiotext, Section } from "../Home/style";
+import { Paragraph, Positiotext, Section } from "../Home/style";
 import Cards from "../Home/Cards";
 
 function Project() {
   return (
     <MainPorject id="Projetos">
       <MainPorject>
-        <BlocoTitle>
-          Projetos <Ketalow> &gt; </Ketalow>
-        </BlocoTitle>
+        <BlocoTitle>Projetos</BlocoTitle>
         <Conteiner>
           <Section>
             <Cards />

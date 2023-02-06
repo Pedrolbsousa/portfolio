@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const List = styled.ul`
   color: #fff;
-  width: 480px;
+  width: 375px;
   height: 100px;
-  display: flex;
+  display: none;
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
@@ -18,10 +18,14 @@ export const List = styled.ul`
     text-shadow: 0 0 10px #6828ffcc, 0 0 3px #6828ff;
     font-weight: bold;
   }
-  .True {
-    display: none;
+  &.False {
+    display: flex;
+    background-color: #3b2bb68d;
+    width: 375;
+    height: 228px;
   }
   @media screen and (min-width: 750px) {
+    width: 480px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -31,6 +35,7 @@ export const List = styled.ul`
 export const Card = styled.li`
   list-style: none;
   border-style: solid;
+  background-color: #6928ff65;
   border-color: #ffffff26;
   border-width: 0px 1px;
   font-family: "League Gothic", sans-serif;
@@ -44,7 +49,10 @@ export const Card = styled.li`
   transition: 0.5s;
   @media screen and (min-width: 750px) {
     font-size: 1.3rem;
-    width: 120px;
+    width: 114px;
+    height: 100px;
+    border: none;
+    background-color: #ffffff00;
   }
 `;
 export const Links = styled.a`

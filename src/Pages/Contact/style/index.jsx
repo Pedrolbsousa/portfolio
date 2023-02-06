@@ -19,7 +19,7 @@ export const TitleContact = styled.h1`
   font-size: 2.5rem;
   color: #fff;
   width: 3vw;
-  height: 0vh;
+  height: 40px;
   padding-left: 1vw;
 `;
 export const LogoContact = styled.div`
@@ -46,8 +46,11 @@ export const TextContact = styled.h5`
 export const BaseboardContact = styled.div`
   display: flex;
   align-items: flex-end;
-  height: 34vh;
+  height: 17vh;
   margin: 0px;
+  @media screen and (min-width: 750px) {
+    height: 34vh;
+  }
 `;
 export const Logo = styled.p`
   font-family: "Tulpen One", cursive;
@@ -109,13 +112,13 @@ export const FigureBaseboard = styled.figure`
     height: 19vh;
   }
 `;
-export const linkBaseboard = styled.a`
+export const LinkBase = styled.a`
   color: #000;
   display: flex;
   @media screen and (min-width: 750px) {
     display: flex;
     width: 10vw;
-    height: 19vh;
+    height: 4vh;
   }
 `;
 export const BaseboardLine = styled.hr`

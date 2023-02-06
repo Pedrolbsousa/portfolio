@@ -12,6 +12,7 @@ import {
   FigureBaseboard,
   ObjectBaseboard,
   BaseboardLine,
+  LinkBase,
 } from "./style";
 import {
   AiFillLinkedin,
@@ -46,31 +47,31 @@ function Contact() {
         <Baseboard>
           <TextContact>Copyrigth Pedro Lima 2023</TextContact>
           <IconsContact>
-            <linkBaseboard
+            <LinkBase
               target="blank"
               href={`https://www.linkedin.com/in/${userData.linkedinUser}`}
-              className="IconesContact"
             >
               <AiFillLinkedin />
-            </linkBaseboard>
-            <linkBaseboard
+            </LinkBase>
+            <LinkBase
               target="blank"
               href={`https://github.com/${userData.githubUser}`}
             >
               <AiOutlineGithub />
-            </linkBaseboard>
-            <linkBaseboard
+            </LinkBase>
+            <LinkBase
               target="blank"
               href={`mailto${userData.email}@gmail.com`}
+              onClick={() => (window.location.href = "mailto:nekelpatrick.com")}
             >
               <AiOutlineMail />
-            </linkBaseboard>
-            <linkBaseboard
+            </LinkBase>
+            <LinkBase
               target="blank"
               href={`https://api.whatsapp.com/send?phone=${userData.whatsappNumber}&text=Ol%C3%A1,%20Sr.%20Pedro%20Lima,%20achei%20muito%20interessante%20seu%20portfolio,%20gostaria%20de%20saber%20mais.`}
             >
               <AiOutlineWhatsApp />
-            </linkBaseboard>
+            </LinkBase>
           </IconsContact>
           <LogoContact>
             <LogoB className="BaseboardLogo"> &lsaquo;PEDRO LIMA&rsaquo;</LogoB>
