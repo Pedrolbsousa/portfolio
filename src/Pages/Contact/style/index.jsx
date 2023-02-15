@@ -117,7 +117,7 @@ export const LinkBase = styled.a`
   display: flex;
   @media screen and (min-width: 750px) {
     display: flex;
-    width: 10vw;
+    width: 2vw;
     height: 4vh;
   }
 `;
