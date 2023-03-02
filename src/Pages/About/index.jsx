@@ -1,6 +1,7 @@
 import {
   CntTitleAbout,
   ConteinerAbout,
+  ImgAbout,
   MainAbout,
   PhotoAbout,
   TitleAbout,
@@ -14,6 +15,7 @@ function About() {
       <ConteinerAbout>
         <CntTitleAbout>
           <TitleAbout>Sobre mim</TitleAbout>
+          <ImgAbout />
         </CntTitleAbout>
         <TxtAbout>
           Meu contato com tecnologia começou com uma amigo que era técnico em

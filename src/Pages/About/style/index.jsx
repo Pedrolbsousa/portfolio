@@ -9,6 +9,12 @@ export const MainAbout = styled.div`
   width: 100vw;
   height: 100vh;
 `;
+export const ImgAbout = styled.figure`
+  background-image: url(https://i.imgur.com/lDUM9GR.png);
+  background-size: cover;
+  width: 50vw;
+  height: 50vh;
+`;
 export const ConteinerAbout = styled.div`
   display: flex;
   align-items: center;
@@ -53,6 +59,7 @@ export const TxtAbout = styled.p`
 export const CntTitleAbout = styled.section`
   display: flex;
   width: 80vw;
+  justify-content: space-between;
 `;
 export const TitleAbout = styled.h1`
   display: flex;

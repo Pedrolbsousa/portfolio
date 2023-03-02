@@ -3,11 +3,14 @@ import styled from "styled-components";
 export const MainPage = styled.main`
   width: 100vw;
   height: 130vh;
-  background-position: center;
-  background-image: url("https://www.upquery.com/wp-content/uploads/2022/05/closeup-caucasian-software-coder-hands-typing-keyboard-front-computer-screens-with-programming-interface-database-developer-sitting-desk-writing-algorithm-it-agency-scaled.jpeg");
+  background-position: right;
+  background-image: url("https://i.imgur.com/dbsa3vQ.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #383838;
+  @media screen and (min-width: 750px) {
+    background-position: center;
+  }
 `;
 
 export const TitleCard = styled.p`

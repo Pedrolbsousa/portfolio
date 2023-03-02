@@ -75,7 +75,7 @@ export const IconsContact = styled.section`
   :hover {
     color: #3b2bb6;
     font-size: 2ch;
-    transition: 0.5s;
+    transition: 50ms;
     cursor: pointer;
   }
 `;
@@ -102,13 +102,15 @@ export const Baseboard = styled.div`
   }
 `;
 export const FigureBaseboard = styled.figure`
-  width: 34vw;
+  max-width: 34vw;
+  width: 100%;
   height: 19vh;
   border-radius: 50%;
   background-size: cover;
   background-image: url(https://media.licdn.com/dms/image/C4D03AQHqtreTMuNMvA/profile-displayphoto-shrink_800_800/0/1660311963670?e=1680134400&v=beta&t=zGsAViKBs36PqE1pRkTKqioPT6izsCB_YzgFXjlEM_U);
   @media screen and (min-width: 750px) {
-    width: 10vw;
+    max-width: 13vw;
+    width: 100%;
     height: 19vh;
   }
 `;
@@ -118,7 +120,8 @@ export const LinkBase = styled.a`
   @media screen and (min-width: 750px) {
     display: flex;
     width: 2vw;
-    height: 4vh;
+    min-height: 4vh;
+    height: 100%;
   }
 `;
 export const BaseboardLine = styled.hr`
