@@ -1,11 +1,23 @@
 import ButtonsCards from "../../../components/Buttons/ButtonsCards";
 import { LPorject, TitleCard, UlPorject } from "./style";
 import React from "react";
+let card = document.querySelectorAll(".works");
+
+function AltCard() {
+  console.log("chegeu ate aqui 01");
+}
 
 function Cards() {
+  console.log("chegei aqui");
   return (
     <UlPorject>
-      <LPorject className="works First">
+      <LPorject
+        className="works First"
+        onMouseOver={() => AltCard()}
+        onMouseOut={() => {
+          console.log("sair01");
+        }}
+      >
         <TitleCard>
           Action Figure
           <a
@@ -16,7 +28,15 @@ function Cards() {
           </a>
         </TitleCard>
       </LPorject>
-      <LPorject className="works Second">
+      <LPorject
+        className="works Second"
+        onMouseOver={() => {
+          console.log("chegeu ate aqui 02");
+        }}
+        onMouseOut={() => {
+          console.log("sair02");
+        }}
+      >
         <TitleCard>
           Kenzie News
           <a
@@ -27,7 +47,15 @@ function Cards() {
           </a>
         </TitleCard>
       </LPorject>
-      <LPorject className="works Third">
+      <LPorject
+        className="works Third"
+        onMouseOver={() => {
+          console.log("chegeu ate aqui 03");
+        }}
+        onMouseOut={() => {
+          console.log("sair03");
+        }}
+      >
         <TitleCard>
           Kenzie Hub
           <a
@@ -38,7 +66,15 @@ function Cards() {
           </a>
         </TitleCard>
       </LPorject>
-      <LPorject className="works Bedroom">
+      <LPorject
+        className="works Bedroom"
+        onMouseOver={() => {
+          console.log("chegeu ate aqui 04");
+        }}
+        onMouseOut={() => {
+          console.log("sair04");
+        }}
+      >
         <TitleCard>
           Kenzie Burger
           <a

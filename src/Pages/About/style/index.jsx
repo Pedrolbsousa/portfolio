@@ -10,7 +10,7 @@ export const MainAbout = styled.div`
   height: 100vh;
 `;
 export const ImgAbout = styled.figure`
-  background-image: url(https://i.imgur.com/lDUM9GR.png);
+  background-image: url(https://i.imgur.com/9jMsDJa.png);
   background-size: cover;
   width: 50vw;
   height: 50vh;
@@ -60,6 +60,9 @@ export const CntTitleAbout = styled.section`
   display: flex;
   width: 80vw;
   justify-content: space-between;
+  @media screen and (min-width: 750px) {
+    display: flex;
+  }
 `;
 export const TitleAbout = styled.h1`
   display: flex;

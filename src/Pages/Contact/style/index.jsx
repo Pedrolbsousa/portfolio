@@ -105,13 +105,14 @@ export const FigureBaseboard = styled.figure`
   max-width: 34vw;
   width: 100%;
   height: 19vh;
-  border-radius: 50%;
+  border-radius: 50vmin;
   background-size: cover;
   background-image: url(https://media.licdn.com/dms/image/C4D03AQHqtreTMuNMvA/profile-displayphoto-shrink_800_800/0/1660311963670?e=1680134400&v=beta&t=zGsAViKBs36PqE1pRkTKqioPT6izsCB_YzgFXjlEM_U);
   @media screen and (min-width: 750px) {
-    max-width: 13vw;
+    max-width: 9vw;
+    max-height: 34vh;
     width: 100%;
-    height: 19vh;
+    height: 100%;
   }
 `;
 export const LinkBase = styled.a`
