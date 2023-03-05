@@ -17,7 +17,8 @@ export const UlPorject = styled.ul`
     max-width: 60vw;
     width: 100%;
   }
-  .First {
+  .First,
+  .TrueFirst {
     background-color: none;
     position: relative;
     transition: 0.3s;
@@ -26,8 +27,15 @@ export const UlPorject = styled.ul`
     background-repeat: no-repeat;
     position: relative;
     border-radius: 10px 0 0 0;
+    filter: grayscale(100%);
+    width: 100%;
   }
-  .Second {
+  .TrueFirst {
+    filter: grayscale(0%);
+    width: 200%;
+  }
+  .Second,
+  .TrueSecond {
     background-color: #333;
     background-image: url(https://i.postimg.cc/7qYHRW9b/primeiro-news.png);
     background-size: cover;
@@ -35,7 +43,12 @@ export const UlPorject = styled.ul`
     position: relative;
     transition: 0.3s;
   }
-  .Third {
+  .TrueSecond {
+    filter: grayscale(0%);
+    width: 200%;
+  }
+  .Third,
+  .TrueThird {
     background-color: #5163d3;
     background-image: url(https://i.postimg.cc/336sZSbs/primeiro-kenziehub-log.png);
     background-size: cover;
@@ -43,13 +56,22 @@ export const UlPorject = styled.ul`
     position: relative;
     transition: 0.3s;
   }
-  .Bedroom {
+  .TrueThird {
+    filter: grayscale(0%);
+    width: 200%;
+  }
+  .Bedroom,
+  .TrueBedroom {
     background-color: #333;
     background-image: url(https://i.postimg.cc/CwZtdCLm/primeiro-kenzie-Burger.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     position: 0.3s;
+  }
+  .TrueBedroom {
+    filter: grayscale(0%);
+    width: 200%;
   }
 `;
 export const LPorject = styled.li`
@@ -62,7 +84,7 @@ export const LPorject = styled.li`
   border: 0px solid;
   border-radius: 10px 0 0 0;
   width: 20vw;
-  height: 50vh;
+  height: 70vh;
   @media screen and (min-width: 750px) {
     height: 70vh;
     width: 100%;
@@ -79,12 +101,13 @@ export const TitleCard = styled.p`
   justify-content: space-around;
   position: absolute;
   border-radius: 10px 0 0 0;
-  width: 20vw;
+  max-width: 20vw;
+  width: 100%;
   height: 50vh;
   background-color: #00000068;
   @media screen and (min-width: 750px) {
     height: 70vh;
-    max-width: 15vw;
+    max-width: 20vw;
     width: 100%;
   }
 `;

@@ -1,22 +1,19 @@
 import ButtonsCards from "../../../components/Buttons/ButtonsCards";
 import { LPorject, TitleCard, UlPorject } from "./style";
-import React from "react";
-let card = document.querySelectorAll(".works");
-
-function AltCard() {
-  console.log("chegeu ate aqui 01");
-}
+import React, { useState } from "react";
 
 function Cards() {
-  console.log("chegei aqui");
+  const [altCard, setAltCard] = useState("works First");
+  const [altSecond, setAltSecond] = useState("works Secondt");
+  const [altThird, setAltThird] = useState("works Third");
+  const [alBedroom, setAltBedroom] = useState("works Bedroom");
+
   return (
     <UlPorject>
       <LPorject
-        className="works First"
-        onMouseOver={() => AltCard()}
-        onMouseOut={() => {
-          console.log("sair01");
-        }}
+        className={altCard ? "works First" : "TrueFirst"}
+        onMouseOver={() => setAltCard(!altCard)}
+        onMouseOut={() => setAltCard(!altCard)}
       >
         <TitleCard>
           Action Figure
@@ -29,13 +26,9 @@ function Cards() {
         </TitleCard>
       </LPorject>
       <LPorject
-        className="works Second"
-        onMouseOver={() => {
-          console.log("chegeu ate aqui 02");
-        }}
-        onMouseOut={() => {
-          console.log("sair02");
-        }}
+        className={altSecond ? "works Second" : "TrueSecond"}
+        onMouseOver={() => setAltSecond(!altSecond)}
+        onMouseOut={() => setAltSecond(!altSecond)}
       >
         <TitleCard>
           Kenzie News
@@ -48,13 +41,9 @@ function Cards() {
         </TitleCard>
       </LPorject>
       <LPorject
-        className="works Third"
-        onMouseOver={() => {
-          console.log("chegeu ate aqui 03");
-        }}
-        onMouseOut={() => {
-          console.log("sair03");
-        }}
+        className={altThird ? "works Third" : "TrueThird"}
+        onMouseOver={() => setAltThird(!altThird)}
+        onMouseOut={() => setAltThird(!altThird)}
       >
         <TitleCard>
           Kenzie Hub
@@ -67,13 +56,9 @@ function Cards() {
         </TitleCard>
       </LPorject>
       <LPorject
-        className="works Bedroom"
-        onMouseOver={() => {
-          console.log("chegeu ate aqui 04");
-        }}
-        onMouseOut={() => {
-          console.log("sair04");
-        }}
+        className={alBedroom ? "works Bedroom" : "TrueBedroom"}
+        onMouseOver={() => setAltBedroom(!alBedroom)}
+        onMouseOut={() => setAltBedroom(!alBedroom)}
       >
         <TitleCard>
           Kenzie Burger
