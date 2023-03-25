@@ -31,6 +31,7 @@ export const TextContact = styled.h5`
   display: flex;
   align-items: center;
   flex-direction: row;
+  justify-content: center;
   font-size: 0.8rem;
   width: 50vw;
   font-weight: 400;
@@ -92,13 +93,18 @@ export const ObjectBaseboard = styled.div`
 export const Baseboard = styled.div`
   display: flex;
   align-items: center;
+  flex-direction: column-reverse;
   justify-content: space-around;
   background-color: #72727239;
-  height: 10vh;
+  height: 18vh;
   width: 100vw;
   position: relative;
   @media screen and (min-width: 750px) {
     height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
   }
 `;
 export const FigureBaseboard = styled.figure`

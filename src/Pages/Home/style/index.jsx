@@ -25,17 +25,23 @@ export const TitleCard = styled.p`
 `;
 export const Section = styled.section`
   display: flex;
+  justify-content: center;
+  @media screen and (min-width: 750px) {
+    display: flex;
+    justify-content: flex-start;
+  }
 `;
 export const Paragraph = styled.small`
   display: flex;
   font-family: "Khand", sans-serif;
   font-size: 1rem;
   color: #fff;
-  width: 73vw;
+  width: 90vw;
   height: 20vh;
   padding-left: 3vw;
   @media screen and (min-width: 750px) {
     font-size: 1.2rem;
+    width: 73vw;
     height: 18vh;
   }
 `;

@@ -8,20 +8,13 @@ export const List = styled.ul`
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
+  margin-bottom: 0px;
   margin-top: 0px;
   padding-left: 0px;
-  :hover {
-    background-color: #0000007f;
-    border: 2px solid #6828ff;
-    color: #6828ff;
-    box-shadow: 0px 0px 35px #6828ff, 0px 0px 15px #6928ff76 inset;
-    text-shadow: 0 0 10px #6828ffcc, 0 0 3px #6828ff;
-    font-weight: bold;
-  }
   &.False {
     display: flex;
     background-color: #3b2bb68d;
-    width: 375;
+    width: 375px;
     height: 228px;
   }
   @media screen and (min-width: 750px) {
@@ -30,6 +23,24 @@ export const List = styled.ul`
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
+    :before {
+      top: 62px;
+      content: "";
+      position: absolute;
+      width: 48px;
+      height: 2px;
+      background-color: #ffffff7f;
+      visibility: hidden;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+    }
+    :hover:before {
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
   }
 `;
 export const Card = styled.li`
@@ -47,6 +58,9 @@ export const Card = styled.li`
   width: 192px;
   cursor: pointer;
   transition: 0.5s;
+  &:hover {
+    background-color: #00000058;
+  }
   @media screen and (min-width: 750px) {
     font-size: 1.3rem;
     width: 114px;
@@ -56,6 +70,8 @@ export const Card = styled.li`
   }
 `;
 export const Links = styled.a`
+  text-decoration: none;
+  color: #fff;
   border-style: solid;
   border-color: #ffffff26;
   border-width: 0px 1px;

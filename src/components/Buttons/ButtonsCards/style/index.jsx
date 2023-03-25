@@ -1,21 +1,71 @@
 import styled from "styled-components";
 
 export const ButtonCard = styled.button`
-  font-family: "League Gothic", sans-serif;
+  border: none;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 16px;
   color: #fff;
-  background-color: #ffffff14;
-  font-size: 15px;
-  height: 40px;
-  width: 60px;
-  border-radius: 5px 0 0 0;
-  border: solid #ffffffc8 2px;
+  transition: all 0.3s;
+  position: relative;
   cursor: pointer;
-  &:hover {
-    color: #500cf0d8;
-    background-color: #000000a7;
-    transition: 0.5s;
+  background-color: #00000011;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vh;
+  width: 25vw;
+  ::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+    transform: scale(0.1, 1);
+  }
+  :hover::before {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+  ::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  :hover::after {
+    opacity: 0;
+    transform: scale(0.1, 1);
   }
   @media screen and (min-width: 750px) {
-    width: 110px;
+    width: 8vw;
+  }
+`;
+export const Span = styled.span`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vh;
+  width: 25vw;
+  transition: all 0.3s;
+  :hover {
+    letter-spacing: 2px;
+  }
+  @media screen and (min-width: 750px) {
+    width: 8vw;
   }
 `;

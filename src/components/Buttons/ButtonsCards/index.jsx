@@ -1,6 +1,12 @@
-import { ButtonCard } from "./style";
+import { ButtonCard, Span } from "./style";
 
 function ButtonsCards() {
-  return <ButtonCard>Veja o site</ButtonCard>;
+  return (
+    <>
+      <ButtonCard className="btn-two">
+        <Span>VÉJA O SITE</Span>
+      </ButtonCard>
+    </>
+  );
 }
 export default ButtonsCards;

@@ -9,26 +9,21 @@ export const MainAbout = styled.div`
   width: 100vw;
   height: 100vh;
 `;
-export const ImgAbout = styled.figure`
-  background-image: url(https://i.imgur.com/9jMsDJa.png);
-  background-size: cover;
-  width: 50vw;
-  height: 50vh;
-`;
 export const ConteinerAbout = styled.div`
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: column;
   align-content: flex-end;
   flex-wrap: wrap;
-  width: 80vw;
-  height: 126vh;
+  width: 95vw;
+  height: 125vh;
   background-color: #000000e0;
   @media screen and (min-width: 750px) {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    width: 80vw;
     height: 120vh;
   }
 `;
@@ -58,10 +53,11 @@ export const TxtAbout = styled.p`
 `;
 export const CntTitleAbout = styled.section`
   display: flex;
-  width: 80vw;
+  width: 96vw;
   justify-content: space-between;
   @media screen and (min-width: 750px) {
     display: flex;
+    width: 80vw;
   }
 `;
 export const TitleAbout = styled.h1`

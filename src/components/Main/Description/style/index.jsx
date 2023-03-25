@@ -14,6 +14,7 @@ export const Description = styled.div`
   font-family: "Zilla Slab Highlight", cursive;
   color: #fff;
   font-size: 2.5rem;
+  user-select: none;
   height: 100px;
   width: 429px;
   @media screen and (min-width: 750px) {

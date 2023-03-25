@@ -1,4 +1,6 @@
 import Menu from "../../../components/Buttons";
+import ButtonsCurriculo from "../../../components/Buttons/ButtonCurriculos";
+
 import {
   Bloco,
   Figure,
@@ -20,6 +22,7 @@ function Header() {
       <Bloco />
       <Menu />
       <Transparent />
+      <ButtonsCurriculo />
     </Head>
   );
 }

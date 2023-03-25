@@ -1,74 +1,60 @@
 import ButtonsCards from "../../../components/Buttons/ButtonsCards";
 import { LPorject, TitleCard, UlPorject } from "./style";
-import React, { useState } from "react";
 
 function Cards() {
-  const [altCard, setAltCard] = useState("works First");
-  const [altSecond, setAltSecond] = useState("works Secondt");
-  const [altThird, setAltThird] = useState("works Third");
-  const [alBedroom, setAltBedroom] = useState("works Bedroom");
-
   return (
     <UlPorject>
-      <LPorject
-        className={altCard ? "works First" : "TrueFirst"}
-        onMouseOver={() => setAltCard(!altCard)}
-        onMouseOut={() => setAltCard(!altCard)}
-      >
-        <TitleCard>
-          Action Figure
+      <LPorject className="works First">
+        <div className="TitleSection">
+          <TitleCard className="altTitle">Action Figure</TitleCard>
+        </div>
+        <div className="ButtonSection">
           <a
             target="blank"
             href="https://solid-doodle-bd318073.pages.github.io/"
           >
             <ButtonsCards />
           </a>
-        </TitleCard>
+        </div>
       </LPorject>
-      <LPorject
-        className={altSecond ? "works Second" : "TrueSecond"}
-        onMouseOver={() => setAltSecond(!altSecond)}
-        onMouseOut={() => setAltSecond(!altSecond)}
-      >
-        <TitleCard>
-          Kenzie News
+      <LPorject className="works Second">
+        <div className="TitleSection">
+          <TitleCard className="altTitle">Kenzie News</TitleCard>
+        </div>
+        <div className="ButtonSection">
           <a
             target="blank"
             href="https://ideal-telegram-9d586461.pages.github.io/"
           >
             <ButtonsCards />
           </a>
-        </TitleCard>
+        </div>
       </LPorject>
-      <LPorject
-        className={altThird ? "works Third" : "TrueThird"}
-        onMouseOver={() => setAltThird(!altThird)}
-        onMouseOut={() => setAltThird(!altThird)}
-      >
-        <TitleCard>
-          Kenzie Hub
+      <LPorject className="works Third">
+        <div className="TitleSection">
+          <TitleCard className="altTitle">Kenzie Hub</TitleCard>
+        </div>
+        <div className="ButtonSection">
           <a
             target="blank"
             href="https://react-entrega-s2-formulario-de-cadastro-pedrolbsousa.vercel.app/"
           >
             <ButtonsCards />
           </a>
-        </TitleCard>
+        </div>
       </LPorject>
-      <LPorject
-        className={alBedroom ? "works Bedroom" : "TrueBedroom"}
-        onMouseOver={() => setAltBedroom(!alBedroom)}
-        onMouseOut={() => setAltBedroom(!alBedroom)}
-      >
-        <TitleCard>
-          Kenzie Burger
+      <LPorject className="works Bedroom">
+        <div className="TitleSection">
+          <TitleCard className="altTitle">Kenzie Burger</TitleCard>
+        </div>
+        <div className="ButtonSection">
           <a
             target="blank"
             href="https://react-entrega-s1-hamburgueria-da-kenzie-pedrolbsousa.vercel.app/"
           >
             <ButtonsCards />
           </a>
-        </TitleCard>
+        </div>
       </LPorject>
     </UlPorject>
   );

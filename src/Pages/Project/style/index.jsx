@@ -16,16 +16,17 @@ export const MainPorject = styled.div`
 export const Conteiner = styled.div`
   display: flex;
   flex-direction: column;
-  width: 80vw;
+  width: 95vw;
   height: 92vh;
   background-color: #000000e0;
   @media screen and (min-width: 750px) {
     height: 92vh;
+    width: 80vw;
   }
 `;
 export const BlocoTitle = styled.button`
   font-family: "League Gothic", sans-serif;
-  font-size: 1rem;
+  font-size: 2rem;
   display: flex;
   flex-direction: row;
   align-content: space-around;
@@ -36,17 +37,20 @@ export const BlocoTitle = styled.button`
   background-color: #000;
   border: none;
   padding-left: 6px;
-  width: 15vw;
+  width: 55vw;
   height: 6vh;
   border-radius: 10px 10px 0 0;
   @media screen and (min-width: 750px) {
     font-size: 1.8rem;
+    width: 15vw;
   }
 `;
 export const PorjectTitleV = styled.div`
   width: 15vw;
   height: 70vh;
   color: #5242cc;
+  cursor: default;
+  user-select: none;
   font-size: 7rem;
   font-weight: bolder;
   background-color: #383838;

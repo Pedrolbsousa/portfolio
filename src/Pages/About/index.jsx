@@ -1,13 +1,13 @@
 import {
   CntTitleAbout,
   ConteinerAbout,
-  ImgAbout,
   MainAbout,
   PhotoAbout,
   TitleAbout,
   TxtAbout,
 } from "./style";
 import ReactPlayer from "react-player";
+import Skills from "../../components/Main/About";
 
 function About() {
   return (
@@ -15,7 +15,7 @@ function About() {
       <ConteinerAbout>
         <CntTitleAbout>
           <TitleAbout>Sobre mim</TitleAbout>
-          <ImgAbout />
+          <Skills />
         </CntTitleAbout>
         <TxtAbout>
           Meu contato com tecnologia começou com uma amigo que era técnico em
