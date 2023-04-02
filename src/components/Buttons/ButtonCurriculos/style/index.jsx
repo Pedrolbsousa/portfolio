@@ -8,19 +8,19 @@ export const ButtonCurriculo = styled.button`
   transition: all 0.3s;
   position: relative;
   cursor: pointer;
-  background-color: #3b2bb68d;
+  background-color: #6928ff65;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50vw;
-  height: 11vh;
+  width: 27vw;
+  height: 77px;
   ::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 77px;
     z-index: 1;
     background-color: rgba(255, 255, 255, 0.1);
     transition: all 0.3s;
@@ -35,7 +35,7 @@ export const ButtonCurriculo = styled.button`
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 77px;
     z-index: 1;
     opacity: 0;
     transition: all 0.3s;
@@ -52,20 +52,32 @@ export const ButtonCurriculo = styled.button`
     justify-content: center;
     align-items: center;
     width: 10vw;
-    height: 12vh;
+    height: 100px;
+    ::before {
+      height: 100px;
+    }
+    ::after {
+      height: 100px;
+    }
   }
 `;
 export const AreaButtonCurriculo = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
-  height: 11vh;
+  width: 52vw;
+  height: 9vh;
+  background-color: #3b2bb68d;
+
+  &.false {
+    display: none;
+  }
   @media screen and (min-width: 750px) {
     font-size: 16px;
     display: flex;
     width: 22vw;
-    height: 9vh;
+    height: 10.6vh;
     flex-direction: row-reverse;
+    background-color: #ffffff10;
   }
 `;

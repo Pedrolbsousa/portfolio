@@ -40,7 +40,7 @@ export const TextContact = styled.h5`
   padding-left: 10px;
   @media screen and (min-width: 750px) {
     width: 30vw;
-    font-size: 1rem;
+    font-size: smaller;
     width: auto;
   }
 `;
@@ -75,7 +75,7 @@ export const IconsContact = styled.section`
   gap: 2vw;
   :hover {
     color: #3b2bb6;
-    font-size: 2ch;
+    font-size: 2.2ch;
     transition: 50ms;
     cursor: pointer;
   }
@@ -113,7 +113,7 @@ export const FigureBaseboard = styled.figure`
   height: 19vh;
   border-radius: 50vmin;
   background-size: cover;
-  background-image: url(https://media.licdn.com/dms/image/C4D03AQHqtreTMuNMvA/profile-displayphoto-shrink_800_800/0/1660311963670?e=1680134400&v=beta&t=zGsAViKBs36PqE1pRkTKqioPT6izsCB_YzgFXjlEM_U);
+  background-image: url(https://www.imagemhost.com.br/images/2023/03/30/IMG-20201116-WA0000.jpg);
   @media screen and (min-width: 750px) {
     max-width: 9vw;
     max-height: 34vh;
@@ -126,8 +126,10 @@ export const LinkBase = styled.a`
   display: flex;
   @media screen and (min-width: 750px) {
     display: flex;
-    width: 2vw;
-    min-height: 4vh;
+    justify-content: center;
+    align-items: center;
+    width: 4vw;
+    min-height: 5vh;
     height: 100%;
   }
 `;

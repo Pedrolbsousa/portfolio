@@ -86,7 +86,7 @@ export const Links = styled.a`
 export const MobileMenuIcon = styled.button`
   display: block;
   position: absolute;
-  left: 311px;
+  left: 88%;
   top: 71px;
   font-size: 27px;
   font-weight: bold;

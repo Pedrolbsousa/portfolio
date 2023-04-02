@@ -1,9 +1,12 @@
+import { useState } from "react";
+import { MobileMenuIcon } from "../style";
 import { AreaButtonCurriculo, ButtonCurriculo } from "./style";
 
 function ButtonsCurriculo() {
+  const [isMobile, setIsMobile] = useState(false);
   return (
     <>
-      <AreaButtonCurriculo>
+      <AreaButtonCurriculo className={isMobile ? "False" : "True"}>
         <a
           target="blank"
           href="https://docs.google.com/document/d/e/2PACX-1vRsruPUC9PKY1zO9AQnz4hbT0QhBic6S6OuvpRIyYTM41CBnPvgqoKxfAALCh45LO59vSScask2UcTV/pub?embedded=true"
@@ -13,6 +16,7 @@ function ButtonsCurriculo() {
           </ButtonCurriculo>
         </a>
       </AreaButtonCurriculo>
+      <MobileMenuIcon onClick={() => setIsMobile(isMobile)} />
     </>
   );
 }

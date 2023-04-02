@@ -11,7 +11,7 @@ function Cards() {
         <div className="ButtonSection">
           <a
             target="blank"
-            href="https://solid-doodle-bd318073.pages.github.io/"
+            href="https://kenzie-academy-brasil-developers.github.io/m1-entrega-capstone-ecommerce-Pedrolbsousa/"
           >
             <ButtonsCards />
           </a>
@@ -24,7 +24,7 @@ function Cards() {
         <div className="ButtonSection">
           <a
             target="blank"
-            href="https://ideal-telegram-9d586461.pages.github.io/"
+            href="https://kenzie-academy-brasil-developers.github.io/m2-entrega-kenzie-news-Pedrolbsousa/"
           >
             <ButtonsCards />
           </a>

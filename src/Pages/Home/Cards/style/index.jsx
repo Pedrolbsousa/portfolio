@@ -26,7 +26,7 @@ export const UlPorject = styled.ul`
     justify-content: center;
     flex-wrap: nowrap;
     height: 70vh;
-    max-width: 60vw;
+    max-width: 95vw;
     width: 100%;
     :hover {
       filter: grayscale(0%);
@@ -61,6 +61,9 @@ export const UlPorject = styled.ul`
     background-color: #333;
     background-image: url(https://i.postimg.cc/CwZtdCLm/primeiro-kenzie-Burger.png);
   }
+  @media screen and (min-width: 750px) {
+    max-width: 60vw;
+  }
 `;
 export const LPorject = styled.li`
   display: flex;
@@ -74,7 +77,7 @@ export const LPorject = styled.li`
   border-radius: 10px 0 0 0;
   width: 95vw;
   height: 100%;
-  max-height: 17vw;
+  max-height: 27vw;
   .TitleSection {
     display: flex;
     border-radius: 10px 0 0 0;
@@ -87,7 +90,7 @@ export const LPorject = styled.li`
   }
   .ButtonSection {
     display: flex;
-    width: 100%;
+    width: 79%;
     height: 30vh;
     background-color: #00000068;
     flex-direction: column;
@@ -110,6 +113,9 @@ export const LPorject = styled.li`
     height: 100%;
     width: 100%;
     max-width: 20vw;
+    .ButtonSection {
+      width: 100%;
+    }
   }
 `;
 export const TitleCard = styled.p`
