@@ -62,7 +62,7 @@ function Contact() {
             <LinkBase
               target="blank"
               href={`mailto${userData.email}@gmail.com`}
-              onClick={() => (window.location.href = "mailto:nekelpatrick.com")}
+              onClick={() => (window.location.href = "mailto:pedrolima.com")}
             >
               <AiOutlineMail />
             </LinkBase>

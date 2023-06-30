@@ -4,7 +4,7 @@ export const MainPage = styled.main`
   width: 100vw;
   height: 130vh;
   background-position: right;
-  background-image: url("https://i.imgur.com/9jMsDJa.png");
+  background-image: url("https://i.imgur.com/OwgSxPh.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #383838;

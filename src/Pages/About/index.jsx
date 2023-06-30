@@ -18,16 +18,21 @@ function About() {
           <Skills />
         </CntTitleAbout>
         <TxtAbout>
-          Meu contato com tecnologia começou com uma amigo que era técnico em
-          informática, por conta do incentivo que ele me dava eu fiz o curso
-          técnico em informática, e não parei, iniciei o curso de sistemas para
-          internet a distância porém por falta de orientação eu acabei trancando
-          o curso. Por conta própria continuei estudando HTML e CSS. A Partir
-          disto me apaixonei pela área e iniciei o curso com a Kenzie Academy de
-          desenvolvedor Full stack. Meu objetivo hoje é conquistar meu primeiro
-          emprego como desenvolvedor front-end e aplicar de forma prática o
-          conhecimento que venho absorvendo com o meu curso e contribuir de uma
-          forma mais ampla com as minhas ideias.
+          Gostaria de compartilhar com o(a) senhor(a) que minha afinidade com a
+          área de tecnologia se iniciou por meio do contato com um amigo que era
+          técnico em informática. Através de sua influência positiva, decidi me
+          matricular no curso técnico de informática e, desde então, não parei
+          de estudar e aprimorar minhas habilidades. Inicialmente, decidi
+          iniciar um curso de sistemas para internet a distância. No entanto,
+          por falta de orientação, acabei por interromper o curso.
+          Posteriormente, comecei a estudar HTML e CSS por conta própria e me
+          apaixonei pela área de desenvolvimento web. Dessa forma, decidi
+          ingressar na Kenzie Academy para o curso de desenvolvedor Full Stack.
+          Hoje, meu objetivo é conseguir uma oportunidade como desenvolvedor
+          front-end para aplicar o conhecimento que tenho absorvido durante o
+          curso e contribuir com minhas ideias de forma mais ampla. Agradeço
+          pelo seu tempo e atenção, e coloco-me à disposição para eventuais
+          esclarecimentos.
         </TxtAbout>
       </ConteinerAbout>
       <PhotoAbout>

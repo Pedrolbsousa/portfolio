@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ButtonCard = styled.button`
+export const ButtonCardGit = styled.button`
   border: none;
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 16px;
@@ -12,8 +12,8 @@ export const ButtonCard = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 20vw;
   height: 3vh;
-  width: 25vw;
   ::before {
     content: "";
     position: absolute;
@@ -52,20 +52,17 @@ export const ButtonCard = styled.button`
     transform: scale(0.1, 1);
   }
   @media screen and (min-width: 750px) {
-    width: 8vw;
+    width: 5vw;
   }
 `;
 export const Span = styled.span`
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  height: 3vh;
-  width: 25vw;
+  max-width: 25vw;
   transition: all 0.3s;
-  :hover {
-    letter-spacing: 2px;
-  }
+
   @media screen and (min-width: 750px) {
-    width: 8vw;
+    max-width: 5vw;
   }
 `;
