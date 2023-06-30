@@ -1,4 +1,5 @@
-import ButtonsCards from "../../../components/Buttons/ButtonsCards";
+import ButtonCardGits from "../../../components/Buttons/ButtonGitCard";
+import ButtonLinkCard from "../../../components/Buttons/ButtonLinkCard";
 import { LPorject, TitleCard, UlPorject } from "./style";
 
 function Cards() {
@@ -13,7 +14,13 @@ function Cards() {
             target="blank"
             href="https://kenzie-academy-brasil-developers.github.io/m1-entrega-capstone-ecommerce-Pedrolbsousa/"
           >
-            <ButtonsCards />
+            <ButtonLinkCard />
+          </a>
+          <a
+            target="blank"
+            href="https://github.com/Kenzie-Academy-Brasil-Developers/m1-entrega-capstone-ecommerce-Pedrolbsousa"
+          >
+            <ButtonCardGits />
           </a>
         </div>
       </LPorject>
@@ -26,7 +33,13 @@ function Cards() {
             target="blank"
             href="https://kenzie-academy-brasil-developers.github.io/m2-entrega-kenzie-news-Pedrolbsousa/"
           >
-            <ButtonsCards />
+            <ButtonLinkCard />
+          </a>
+          <a
+            target="blank"
+            href="https://github.com/Kenzie-Academy-Brasil-Developers/m2-entrega-kenzie-news-Pedrolbsousa"
+          >
+            <ButtonCardGits />
           </a>
         </div>
       </LPorject>
@@ -39,7 +52,13 @@ function Cards() {
             target="blank"
             href="https://react-entrega-s2-formulario-de-cadastro-pedrolbsousa.vercel.app/"
           >
-            <ButtonsCards />
+            <ButtonLinkCard />
+          </a>
+          <a
+            target="blank"
+            href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s2-formulario-de-cadastro-Pedrolbsousa"
+          >
+            <ButtonCardGits />
           </a>
         </div>
       </LPorject>
@@ -52,7 +71,13 @@ function Cards() {
             target="blank"
             href="https://react-entrega-s1-hamburgueria-da-kenzie-pedrolbsousa.vercel.app/"
           >
-            <ButtonsCards />
+            <ButtonLinkCard />
+          </a>
+          <a
+            target="blank"
+            href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-hamburgueria-da-kenzie-Pedrolbsousa/tree/main/react-entrega-s1-hamburgueria-da-kenzie-pedrolbsousa"
+          >
+            <ButtonCardGits />
           </a>
         </div>
       </LPorject>

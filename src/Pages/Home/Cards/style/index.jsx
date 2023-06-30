@@ -16,7 +16,7 @@ export const UlPorject = styled.ul`
   transition: 0.3s;
   :hover {
     filter: grayscale(0%);
-    width: 100%;
+    height: 100%;
     transition: 300ms;
   }
   @media screen and (min-width: 750px) {
@@ -27,10 +27,10 @@ export const UlPorject = styled.ul`
     flex-wrap: nowrap;
     height: 70vh;
     max-width: 95vw;
-    width: 100%;
+    width: 100vw;
     :hover {
       filter: grayscale(0%);
-      width: 200%;
+      width: 200vw;
       transition: 300ms;
       .altTitle {
         font-size: 10rem;
@@ -93,21 +93,25 @@ export const LPorject = styled.li`
     width: 79%;
     height: 30vh;
     background-color: #00000068;
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     a {
       display: flex;
       justify-content: center;
       height: 3vh;
-      width: 8vw;
+      width: auto;
       :hover {
         height: 3vh;
         width: 8vw;
       }
     }
   }
-
+  &:hover {
+    max-height: 62vw;
+  }
   @media screen and (min-width: 750px) {
     max-height: 70vh;
     height: 100%;
