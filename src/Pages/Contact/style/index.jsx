@@ -27,6 +27,30 @@ export const LogoContact = styled.div`
   flex-direction: column;
   align-items: center;
 `;
+export const FigureContactLogo = styled.figure`
+  background-image: url("https://images2.imgbox.com/28/39/lorVTtto_o.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 4px 1px 1px 1px;
+  width: 31vw;
+  height: 3vh;
+  @media screen and (min-width: 750px) {
+    width: 9vw;
+    height: 3vh;
+  }
+`;
+export const FigureContact = styled.figure`
+  background-image: url("https://images2.imgbox.com/7f/19/948Sq7IG_o.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0px;
+  width: 53vw;
+  height: 7vh;
+  @media screen and (min-width: 750px) {
+    width: 12vw;
+    height: 4vh;
+  }
+`;
 export const TextContact = styled.h5`
   display: flex;
   align-items: center;

@@ -1,4 +1,3 @@
-import { LogoB, Line } from "../Home/Header/style";
 import {
   Contacts,
   Conteiner,
@@ -7,12 +6,12 @@ import {
   IconsContact,
   TextContact,
   BaseboardContact,
-  Logo,
   Baseboard,
   FigureBaseboard,
   ObjectBaseboard,
-  BaseboardLine,
   LinkBase,
+  FigureContact,
+  FigureContactLogo,
 } from "./style";
 import {
   AiFillLinkedin,
@@ -29,11 +28,7 @@ function Contact() {
       <Conteiner>
         <TitleContact>Contato</TitleContact>
         <LogoContact>
-          <LogoB className="ContactLogo"> &lsaquo;PEDRO LIMA&rsaquo;</LogoB>
-          <Line className="ContactLine" />
-          <Logo className="Contactp">
-            &lsaquo; /Desenvolvedor Front-end &rsaquo;
-          </Logo>
+          <FigureContact />
         </LogoContact>
       </Conteiner>
       <ObjectBaseboard>
@@ -74,11 +69,7 @@ function Contact() {
             </LinkBase>
           </IconsContact>
           <LogoContact>
-            <LogoB className="BaseboardLogo"> &lsaquo;PEDRO LIMA&rsaquo;</LogoB>
-            <BaseboardLine />
-            <Logo className="Baseboardp">
-              &lsaquo; /Desenvolvedor Front-end &rsaquo;
-            </Logo>
+            <FigureContactLogo />
           </LogoContact>
         </Baseboard>
       </BaseboardContact>

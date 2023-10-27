@@ -33,6 +33,7 @@ export const ButtonLink = styled.button`
     transform: scale(0.1, 1);
   }
   :hover::before {
+    width: 100%;
     opacity: 1;
     transform: scale(1, 1);
   }
@@ -52,7 +53,7 @@ export const ButtonLink = styled.button`
     transform: scale(0.1, 1);
   }
   @media screen and (min-width: 750px) {
-    width: 6vw;
+    width: 5vw;
   }
 `;
 export const ButtonCardGit = styled.button`
@@ -88,11 +89,13 @@ export const ButtonCardGit = styled.button`
     transform: scale(0.1, 1);
   }
   :hover::before {
+    width: 100%;
     opacity: 1;
     transform: scale(1, 1);
   }
   ::after {
     content: "";
+    width: 100%;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -103,6 +106,7 @@ export const ButtonCardGit = styled.button`
     background-color: rgba(255, 255, 255, 0.1);
   }
   :hover::after {
+    width: 100%;
     opacity: 0;
     transform: scale(0.1, 1);
   }

@@ -12,8 +12,8 @@ export const ButtonCurriculo = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 27vw;
-  height: 77px;
+  width: 45vw;
+  height: 43px;
   ::before {
     content: "";
     position: absolute;
@@ -65,7 +65,7 @@ export const AreaButtonCurriculo = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 52vw;
+  width: 86vw;
   height: 9vh;
   background-color: #3b2bb68d;
 
@@ -76,7 +76,7 @@ export const AreaButtonCurriculo = styled.div`
     font-size: 16px;
     display: flex;
     width: 22vw;
-    height: 10.6vh;
+    height: 100%;
     flex-direction: row-reverse;
     background-color: #ffffff10;
   }

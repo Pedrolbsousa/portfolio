@@ -7,7 +7,10 @@ export const MainAbout = styled.div`
   flex-wrap: wrap;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  height: 121vh;
+  @media screen and (min-width: 750px) {
+    height: 100vh;
+  }
 `;
 export const ConteinerAbout = styled.div`
   display: flex;
@@ -17,7 +20,7 @@ export const ConteinerAbout = styled.div`
   align-content: flex-end;
   flex-wrap: wrap;
   width: 95vw;
-  height: 125vh;
+  height: 146vh;
   background-color: #000000e0;
   @media screen and (min-width: 750px) {
     display: flex;

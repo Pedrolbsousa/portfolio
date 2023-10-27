@@ -9,7 +9,7 @@ function ButtonsCurriculo() {
       <AreaButtonCurriculo className={isMobile ? "False" : "True"}>
         <a
           target="blank"
-          href="https://docs.google.com/document/d/e/2PACX-1vRsruPUC9PKY1zO9AQnz4hbT0QhBic6S6OuvpRIyYTM41CBnPvgqoKxfAALCh45LO59vSScask2UcTV/pub?embedded=true"
+          href="https://drive.google.com/file/d/15R40U1_jQEjIcpn4oMqZuDUcM4NjvFJ5/view"
         >
           <ButtonCurriculo>
             <spam>MEU CURRICULO</spam>
