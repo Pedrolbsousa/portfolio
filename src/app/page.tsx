@@ -1,3 +1,7 @@
+import AboutPage from "./components/about/page";
+import ProjectGird from "./components/projects/ProjectGrid";
+
+
 export default function HomePage() {
   return (
     <main className="relative min-h-screen overflow-hidden bg-[#111111] text-white">
@@ -15,7 +19,7 @@ export default function HomePage() {
 
           <nav className="hidden items-center gap-10 text-sm uppercase tracking-[0.25em] text-white/70 md:flex">
             <a href="#projetos" className="transition hover:text-white">Projetos</a>
-            <a href="#sobre" className="transition hover:text-white">Sobre</a>
+            <a href="#About" className="transition hover:text-white">Sobre</a>
             <a href="#servicos" className="transition hover:text-white">Serviços</a>
             <a href="#contato" className="transition hover:text-white">Contato</a>
           </nav>
@@ -89,6 +93,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <ProjectGird />
+      <AboutPage />
     </main>
   );
 }
