@@ -1,5 +1,7 @@
 import AboutPage from "./components/about/page";
+import ContatoPage from "./components/contato/page";
 import ProjectGird from "./components/projects/ProjectGrid";
+import ServicosPage from "./components/servicos/page";
 
 
 export default function HomePage() {
@@ -95,6 +97,8 @@ export default function HomePage() {
       </section>
       <ProjectGird />
       <AboutPage />
+      <ServicosPage />
+      <ContatoPage />
     </main>
   );
 }

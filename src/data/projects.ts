@@ -35,3 +35,35 @@ export const projects: Project[] = [
     image: "/images/projects/project-4.jpg",
   },
 ];
+export const services = [
+  {
+    title: "Landing Pages e Sites",
+    description:
+      "Criação de páginas modernas, responsivas e bem estruturadas para apresentar marcas, serviços e produtos com visual profissional e foco em conversão.",
+  },
+  {
+    title: "Desenvolvimento Front-end",
+    description:
+      "Interfaces interativas e responsivas com foco em experiência do usuário, componentização, performance e organização visual.",
+  },
+  {
+    title: "Desenvolvimento Full-Stack",
+    description:
+      "Construção de aplicações web completas, conectando front-end, back-end e banco de dados para entregar soluções funcionais de ponta a ponta.",
+  },
+  {
+    title: "APIs e Integrações",
+    description:
+      "Desenvolvimento e consumo de APIs para integrar sistemas, organizar fluxos de dados e ampliar funcionalidades da aplicação.",
+  },
+  {
+    title: "Manutenção e Suporte Web",
+    description:
+      "Correção de bugs, ajustes em interfaces, melhorias em sistemas existentes e apoio técnico para manter aplicações mais estáveis e eficientes.",
+  },
+  {
+    title: "UI para Produtos Digitais",
+    description:
+      "Estruturação visual de interfaces com atenção à clareza, usabilidade e consistência para experiências digitais mais intuitivas.",
+  },
+];
