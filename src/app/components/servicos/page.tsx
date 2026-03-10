@@ -2,7 +2,7 @@ import { services } from "@/data/projects";
 
 export default function ServicosPage() {
   return (
-    <main className="min-h-screen bg-[#0b0b0f] text-white">
+    <main id="servicos" className="min-h-screen bg-[#0b0b0f] text-white">
       <section className="bg-[#f3f3f3] text-black">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10">
           <div className="mb-14 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
