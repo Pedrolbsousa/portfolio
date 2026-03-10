@@ -2,6 +2,7 @@ import AboutPage from "./components/about/page";
 import ContatoPage from "./components/contato/page";
 import ProjectGird from "./components/projects/ProjectGrid";
 import ServicosPage from "./components/servicos/page";
+import Image from "next/image";
 
 
 export default function HomePage() {
@@ -17,7 +18,14 @@ export default function HomePage() {
 
       <header className="relative z-10 border-b border-white/10">
         <div className="mx-auto flex h-24 max-w-7xl items-center justify-between px-6 lg:px-10">
-          <div className="text-3xl font-black tracking-[0.25em]">NOVO</div>
+          <Image
+            src="/logo_PEDROLIMADEV_BK.png"
+            alt="Logo Pedro Lima Dev"
+            width={220}
+            height={82}
+            className="h-auto w-[200px] md:w-[220px]"
+            priority
+          />
 
           <nav className="hidden items-center gap-10 text-sm uppercase tracking-[0.25em] text-white/70 md:flex">
             <a href="#projetos" className="transition hover:text-white">Projetos</a>
@@ -42,13 +50,15 @@ export default function HomePage() {
           </p>
 
           <h1 className="text-5xl font-black leading-[0.95] tracking-tight md:text-7xl">
-            Criando experiências
-            <span className="block text-[#6c5cff]">marcantes.</span>
+            Desenvolvendo experiências
+            <span className="block text-[#6c5cff]">digitais.</span>
           </h1>
 
           <p className="mt-8 max-w-xl text-base leading-8 text-white/70 md:text-lg">
-            Uma home page inspirada no visual editorial da referência, com tipografia forte,
-            grid aparente, contraste alto e espaço para trocar a imagem principal futuramente.
+            Sou desenvolvedor web full-stack, formado pela Kenzie Academy Brasil, com
+            estudos em Sistemas da Informação, Design Gráfico e base técnica em informática.
+            Tenho foco em criar aplicações modernas, intuitivas e eficientes com Next.js,
+            React, TypeScript, Node.js e SQL.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
@@ -84,12 +94,26 @@ export default function HomePage() {
           <div className="relative z-10 h-[520px] w-full overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-2xl backdrop-blur-sm lg:h-[680px]">
             <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.08),rgba(255,255,255,0.02))]" />
 
-            <div className="absolute inset-0 flex items-center justify-center p-10 text-center">
-              <div>
-                <p className="text-xs uppercase tracking-[0.45em] text-white/45">Imagem principal</p>
-                <p className="mt-6 text-2xl font-semibold text-white/80 md:text-3xl">
-                  Vamos trocar esta arte depois
-                </p>
+            <div className="relative z-10 h-[520px] w-full overflow-hidden rounded-[2rem] border border-white/10 shadow-2xl lg:h-[680px]">
+              <Image
+                src="/BG.png"
+                alt="Plano de fundo"
+                fill
+                priority
+                className="object-cover grayscale"
+              />
+
+              <div className="absolute inset-0 bg-black/20" />
+
+              <div className="absolute inset-0 flex items-end justify-center p-6 md:p-10">
+                <Image
+                  src="/Pedro Lima.png"
+                  alt="Pedro Lima"
+                  width={520}
+                  height={640}
+                  className="h-auto max-h-full w-auto object-contain"
+                  priority
+                />
               </div>
             </div>
           </div>

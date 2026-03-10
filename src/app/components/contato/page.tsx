@@ -39,7 +39,7 @@ const directOptions = [
 
 export default function ContatoPage() {
   return (
-    <main className="relative min-h-screen overflow-hidden bg-[#161616] text-white">
+    <main id="contato" className="relative min-h-screen overflow-hidden bg-[#161616] text-white">
       <div className="absolute inset-0">
         <div className="absolute left-0 top-0 h-[42vh] w-[36%] bg-[#222222]" />
         <div className="absolute left-[36%] top-0 h-[42vh] w-[38%] bg-[#5f4cff]" />
