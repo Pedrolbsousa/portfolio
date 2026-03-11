@@ -84,13 +84,7 @@ export default function HomePage() {
         </div>
 
         <div className="relative flex min-h-[540px] items-end justify-end lg:min-h-[720px]">
-          <div className="absolute inset-y-0 right-0 w-[36%] bg-[#5f4cff]" />
-
           <div className="absolute left-0 top-10 h-24 w-24 rounded-full border border-white/15 bg-black/30 backdrop-blur-sm" />
-          <div className="absolute bottom-10 left-10 h-14 w-14 border border-white/20" />
-          <div className="absolute bottom-24 right-14 h-20 w-20 rounded-full border-[10px] border-white/80 border-t-transparent" />
-          <div className="absolute bottom-28 left-1/2 h-0 w-0 -translate-x-1/2 border-l-[20px] border-r-[20px] border-t-[32px] border-l-transparent border-r-transparent border-t-white/90" />
-
           <div className="relative z-10 h-[520px] w-full overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-2xl backdrop-blur-sm lg:h-[680px]">
             <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.08),rgba(255,255,255,0.02))]" />
 
@@ -105,14 +99,14 @@ export default function HomePage() {
 
               <div className="absolute inset-0 bg-black/20" />
 
-              <div className="absolute inset-0 flex items-end justify-center p-6 md:p-10">
+              <div className="absolute inset-y-0 left-1/2 flex h-full w-[208%] -translate-x-1/2 items-center justify-center">
                 <Image
                   src="/Pedro Lima.png"
                   alt="Pedro Lima"
-                  width={520}
-                  height={640}
-                  className="h-auto max-h-full w-auto object-contain"
+                  width={620}
+                  height={780}
                   priority
+                  className="h-full w-auto object-contain"
                 />
               </div>
             </div>
